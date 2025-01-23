@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: 'Berkshire Swash', sans-serif;
+    font-style: 16px;
+    /* font-weight: bold; тоже самое что strong */
+    /* word-spacing: 20px; */
+    /* letter-spacing: 20px; */
+    background: #ddd;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+/* Тень к аватарке */
+/* img  {
+
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.25);
+} */
+
+
+/* header */
+
+.header ul {
+    padding: 0;
+}
+
+.header li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.header p { 
+    display: block;
+    color: gray;
+   
+}
+
+.header a {
+    text-decoration: none;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    width: 300px;
+    padding: 15px 20px;
+}
+
+.header {
+    margin-top: 50px;
+}
+
+/* /header */
+table {
+    margin: auto;
+}
+
+nav.card {
+    background: #eee;
+}
+
+.card {
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    max-width: 700px;
+}
+/* hobbies block */
+.hobbies {
+    background: #FFFAF0;
+    padding: 10px 20px;
+}
+
+.footer {
+    background: #FFE4B5;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.card1 {
+    padding-top: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-bottom: 0px;
+}
+
+.card2 {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+/* works block */
+.works {
+    padding: 15px;
+    /* padding-bottom: 10px;
+
+    padding-left: 10px; */
+    background: linen;
+    padding-bottom: 40px;
+}
+
+hr {
+    width: 800px;    
+    text-align: center;
+}
+/* Центрирование заголовков у каждого блока */
+.block_c {
+    text-align: center;
+}
+
+#description p {
+    font-size: 14px;
+}
+
+
+
+/* Кнопка отправить и поле введите сообщение */
+.btn {
+    border-radius: 7px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+}
+.btn:hover {
+    opacity: .8;
+}
+.inp_message {
+    width: 250px;
+    max-width: 700px;
+}
+
+
+/* Navigation bar (Top links) */
+.navbar {
+    background-color: #F8F8FF;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.navbar ul li {
+    
+    display: inline-block;
+    padding: 10px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    margin:auto;
+}
+.navbar li:hover, .navbar a:hover{
+    color: #FFA07A;
+    background: #FFE4C4;
+    border-radius: 20px;
+}
+.navbar ul li:first-child {
+    margin-left: 30px;
+}
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+
+/* Test block */
+/* .test {
+    margin: auto;
+}
+.test li{
+    display: inline;
+}
+.boxing {
+    width: 32%;
+    border: 1px solid black;
+    display: inline-block;
+    background: gainsboro;
+    box-sizing: border-box;
+}
+.img1 {
+    width: 200px;
+    display: block;
+    margin: 40px auto;
+} */
+
+
+/* Contact Me block */
+
+.inp label {
+    display: block;
+}
+.inp input, .inp textarea {
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    color:black;
+    border-bottom: 1px solid #f8d09f;
+}
+.form_group1_2 div{
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    width: calc(50% - 20px)
+} 
+.form_group1_2 div:last-child {
+    margin-right: 0;
+}
+.inp {
+    padding-left: 20px;
+}
+
+/* Более упрощенный вариант размещения элементов в линию (at contact me): */
+
+/* .form_group1_2 div {
+    padding-bottom: 10px;
+    margin-right: 20px;
+    width: 50%; here
+} 
+
+.form_group1_2 {
+    display: flex; here
+} */
+
+/* Адаптивная верстка */
+/* Условие: если ширина экрана становится меньше, чем 650px, то выполняется код */
+@media (max-width: 650px) {
+    * {
+        text-align: center;
+    }
+}

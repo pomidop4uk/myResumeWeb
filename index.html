@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test1.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#header">About me</a></li>
+                <li><a href="#hobbies">My hobbies</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+
+        <div class="header card">
+            <ul>
+                <li>
+                    <img width="150" src="img/i.png" alt="my image" class="img">
+                </li>
+                
+                <li class="li2">
+                    <h1 id="header">Dmitriy Developer</h1>
+                    <p>Usual developer junior, </p>
+                    <p> who again begin study</p>
+
+                    <h4>Список социальных сетей:</h4>
+                    <p>
+                        <a href="https://vk.com/pomidop4uk1" target="_blank">VK</a> | 
+                        <a href="#" target="_blank">|@pomidop4uk</a> |
+                        <a href="https://github.com/pomidop4uk" target="_blank">github</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="hobbies card" id="hobbies">
+            <h2 class="block_c">My hobby</h2>
+            
+            <ol>
+                <li>Travels</li>
+                <li>Bloging</li>
+                <li>Programming
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>JAVA</li>
+                    </ul>
+                </li>
+                <li>Sport</li>
+            </ol>
+        </div>
+        
+        <section>
+            <article id="works" class="works card">
+                <h2 class="block_c">Works</h2>
+                
+                <table width="400" border="2">
+                    <thead>
+                        <th>Название работы</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Доставка Яндекс</td>
+                            <td>Курьер</td>
+                            <td>2022-2022</td>
+                        </tr>
+                        <tr>
+                            <td>Красное&Белое</td>
+                            <td>Специалист ОПП</td>
+                            <td>2024-2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+    
+        <footer class="footer card">
+            <h2 id="contact" class="block_c">Связаться со мной</h2>
+                <form class="inp">
+                    <div class="form_group1_2">
+                        <div>
+                            <label for="text1">Ваше имя:</label>
+                            <input type="text" id="text1" placeholder="Введите имя" class="input_d">
+                        </div>
+                        
+                        <div>
+                            <label for="email">Ваш email:</label>
+                            <input type="text" id="email" placeholder="Введите email" class="input_d">
+                        </div>
+                    </div>
+                    <div class>
+                        <label for="message">Ваше сообщение:</label>
+                        <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..." class="inp_message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+        </footer>
+    </div>
+
+    <!-- <div class="test card">
+        <h2>Display</h2>
+
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+            <li>Item4</li>
+        </ul>
+
+        <div class="boxing">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis officia natus necessitatibus nihil voluptatum, amet rerum dicta saepe tempore veniam.
+        </div>
+        <div class="boxing">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis officia natus necessitatibus nihil voluptatum, amet rerum dicta saepe tempore veniam.
+        </div>
+        <div class="boxing">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis officia natus necessitatibus nihil voluptatum, amet rerum dicta saepe tempore veniam.
+        </div>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/HTML5_logo_black.svg/2048px-HTML5_logo_black.svg.png" alt="html" class="img1">
+    </div> -->
+</body>
+</html>
